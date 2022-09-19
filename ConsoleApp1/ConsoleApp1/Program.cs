@@ -8,9 +8,13 @@ namespace ConsoleApp1
         {
             int yomamaweight = 999999;
             Console.WriteLine("Hello World!");
-            for (int i = 0; i < yomamaweight; i+10)
+             for (int i = 0; i < yomamaweight; i--)
             {
-                Console.WriteLine("Get a life, " + i + "Yo mama so fat she made c# crash");
+            
+                for (int i = 0; i < yomamaweight; i+10)
+                {
+                     Console.WriteLine("Get a life, " + i + "Yo mama so fat she made c# crash");
+                }
             }
         }
     }
