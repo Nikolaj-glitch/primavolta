@@ -6,7 +6,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int yo = 999900;
+            int yo = 88;
+            list<int> n = new list<int>();
             Console.WriteLine("Hello World!");
              for (int i = 0; i < yo; i--)
             {
@@ -14,8 +15,13 @@ namespace ConsoleApp1
                 for (int i = 0; i < yo; i+10)
                 {
                      Console.WriteLine("Get a life, " + i + "Hello there");
+                     n.add(i*i);
                 }
             }
-        }
+             while(list.count<= 100){
+                Console.WriteLine("lista non piena:"+ lista.count);
+             }
+                 
+       }
     }
 }
