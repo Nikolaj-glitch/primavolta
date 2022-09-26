@@ -6,7 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int yomamaweight = 999999;
+            int yomamaweight = 999900;
             Console.WriteLine("Hello World!");
              for (int i = 0; i < yomamaweight; i--)
             {
