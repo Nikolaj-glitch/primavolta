@@ -20,6 +20,8 @@ namespace ConsoleApp1
             }
              while(list.count<= 100){
                 Console.WriteLine("lista non piena:"+ lista.count);
+                 Console.WriteLine("foto piedi pls");
+                 
              }
                  
        }
